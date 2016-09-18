@@ -1,0 +1,5 @@
+com/myProject/service/AddressDetailsService.class
+com/myProject/model/AddressDetails.class
+com/myProject/exceptions/InvalidRequestException.class
+com/myProject/controller/AddressController.class
+com/myProject/MyRestProjectApplication.class

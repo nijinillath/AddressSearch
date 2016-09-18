@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.MyRestProjectApplicationTests" time="0.014" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/__/jv7tnb8n01b_5f1_m0sq_4nm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5205658542859510036.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Netra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Netra"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Netra"/>
+    <property name="java.class.path" value="/Users/Netra/Downloads/sts-bundle/STS.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ppom.xml -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/Users/Netra/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="com.example.MyRestProjectApplicationTests" time="0.014">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:392)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:156)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:116)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:74)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[06:16:58.485 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.MyRestProjectApplicationTests]
+06:16:58.495 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+06:16:58.508 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+06:16:58.527 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.MyRestProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+06:16:58.538 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.MyRestProjectApplicationTests], using SpringBootContextLoader
+06:16:58.542 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.MyRestProjectApplicationTests]: class path resource [com/example/MyRestProjectApplicationTests-context.xml] does not exist
+06:16:58.543 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.MyRestProjectApplicationTests]: class path resource [com/example/MyRestProjectApplicationTestsContext.groovy] does not exist
+06:16:58.543 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.MyRestProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+06:16:58.543 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.MyRestProjectApplicationTests]: MyRestProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:16:58.601 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.MyRestProjectApplicationTests]
+06:16:58.679 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+06:16:58.681 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+06:16:58.681 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+06:16:58.694 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/] to resources [URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/]]
+06:16:58.694 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example]
+06:16:58.694 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/*.class]
+06:16:58.699 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/*.class] to resources [file [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/MyRestProjectApplicationTests.class]]
+06:16:58.718 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/], URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/org/glassfish/jersey/core/jersey-server/2.23.1/jersey-server-2.23.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/org/glassfish/hk2/hk2-core/2.4.0-b34/hk2-core-2.4.0-b34.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.1/jackson-jaxrs-base-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.1/jackson-jaxrs-json-provider-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.1/jackson-module-jaxb-annotations-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+06:16:58.718 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+06:16:58.719 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com]
+06:16:58.719 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/*.class]
+06:16:58.720 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com]
+06:16:58.720 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com/*.class]
+06:16:58.721 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar]
+06:16:58.736 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar]
+06:16:58.738 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar]
+06:16:58.747 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/org/glassfish/jersey/core/jersey-server/2.23.1/jersey-server-2.23.1.jar]
+06:16:58.753 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/org/glassfish/hk2/hk2-core/2.4.0-b34/hk2-core-2.4.0-b34.jar]
+06:16:58.754 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.1/jackson-jaxrs-base-2.8.1.jar]
+06:16:58.755 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.1/jackson-jaxrs-json-provider-2.8.1.jar]
+06:16:58.756 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.1/jackson-module-jaxb-annotations-2.8.1.jar]
+06:16:58.756 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar]
+06:16:58.757 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+06:16:58.759 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+06:16:58.766 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.MyRestProjectApplicationTests]
+06:16:58.766 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+06:16:58.766 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+06:16:58.767 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.MyRestProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+06:16:58.768 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.MyRestProjectApplicationTests], using SpringBootContextLoader
+06:16:58.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.MyRestProjectApplicationTests]: class path resource [com/example/MyRestProjectApplicationTests-context.xml] does not exist
+06:16:58.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.MyRestProjectApplicationTests]: class path resource [com/example/MyRestProjectApplicationTestsContext.groovy] does not exist
+06:16:58.769 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.MyRestProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+06:16:58.769 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.MyRestProjectApplicationTests]: MyRestProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:16:58.778 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.MyRestProjectApplicationTests]
+06:16:58.779 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+06:16:58.779 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+06:16:58.780 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+06:16:58.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/] to resources [URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/]]
+06:16:58.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example]
+06:16:58.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/*.class]
+06:16:58.784 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/*.class] to resources [file [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/example/MyRestProjectApplicationTests.class]]
+06:16:58.787 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/], URL [file:/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/org/glassfish/jersey/core/jersey-server/2.23.1/jersey-server-2.23.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/org/glassfish/hk2/hk2-core/2.4.0-b34/hk2-core-2.4.0-b34.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.1/jackson-jaxrs-base-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.1/jackson-jaxrs-json-provider-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.1/jackson-module-jaxb-annotations-2.8.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar!/com/], URL [jar:file:/Users/Netra/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+06:16:58.789 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+06:16:58.790 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com]
+06:16:58.790 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/test-classes/com/*.class]
+06:16:58.790 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com]
+06:16:58.790 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com] for files matching pattern [/Users/Netra/Documents/workspace-sts-3.8.1.RELEASE/myRestProject/target/classes/com/*.class]
+06:16:58.791 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar]
+06:16:58.798 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar]
+06:16:58.799 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar]
+06:16:58.800 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/org/glassfish/jersey/core/jersey-server/2.23.1/jersey-server-2.23.1.jar]
+06:16:58.803 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/org/glassfish/hk2/hk2-core/2.4.0-b34/hk2-core-2.4.0-b34.jar]
+06:16:58.804 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.1/jackson-jaxrs-base-2.8.1.jar]
+06:16:58.804 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.1/jackson-jaxrs-json-provider-2.8.1.jar]
+06:16:58.806 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.1/jackson-module-jaxb-annotations-2.8.1.jar]
+06:16:58.807 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar]
+06:16:58.807 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/Netra/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+06:16:58.809 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>
