@@ -21,7 +21,7 @@ import com.myProject.service.AddressDetailsService;
  */
 
 @RestController
-@RequestMapping(value = "/getAddress")
+@RequestMapping(value = "/searchAddress")
 public class AddressController {
 
 	@Autowired
@@ -29,7 +29,7 @@ public class AddressController {
 
 	@ResponseStatus(HttpStatus.OK)
 	@RequestMapping(value = { "/details" }, method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-	public AddressDetails getAddressDetails(@RequestParam(value = "address", required = false) String address)
+	public AddressDetails getAddressDetails(@RequestParam(value = "input", required = false) String address)
 			throws InvalidRequestException {
 		if (StringUtils.isEmpty(address)) {
 			throw new InvalidRequestException("Please provide the address to search");
